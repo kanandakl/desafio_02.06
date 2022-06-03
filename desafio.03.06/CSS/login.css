@@ -1,0 +1,23 @@
+legend{
+    font-size: 48px;
+    color: indigo;
+    padding: 2px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+input{
+    font-size: 22px;
+    color: indigo;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+body {
+    text-align: center;
+}

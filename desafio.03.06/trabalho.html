@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/trabalho.css">
+    <title>cadastro de produtos</title>
+</head>
+
+<h1> Cadastro de produtos</h1>
+<br>
+<div>
+    <form id="prod">
+        <label for="name">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Arroz" required>
+
+        <label for="preco">Preço: </label>
+        <input type="number" id="preco" name="preco" placeholder="R$ 200,00" required>
+
+
+        <input type="checkbox" name="prime" id="prime">
+        <label for="prime"> É prime?</label>
+        <input type="hidden" name="idx" id="idx" value="novo" />
+        <input type="submit" value="Salvar" >
+    </form>
+    
+    <div id="msg-erro"></div>
+</div>
+<br><br>
+
+<table border="4">
+
+    <caption>
+        <h2> Lista de Produtos</h2>
+        
+
+    </caption>
+
+    <thead>
+        <tr>
+            <th> Identificador</th>
+            <th>Nome do produto</th>
+            <th>Preço do produto</th>
+            <th>Prime</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+
+    <tbody id="tbody"></tbody>
+</table>
+<div id="div">
+<button id="sair">Sair</button>
+</div>
+
+<script src="JS/trabalho.js"></script>
+</body>   
+</body>
+</html>
